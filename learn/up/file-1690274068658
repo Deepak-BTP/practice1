@@ -1,0 +1,4 @@
+require('./objc.js.js);
+function add(x,y)
+{
+let sum=x+y;}

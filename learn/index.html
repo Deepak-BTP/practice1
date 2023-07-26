@@ -1,0 +1,42 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Uploading</title>
+</head>
+<body>
+  <h1>welcome!!!!</h1>
+  <h1>we upload files here.....!!!!</h1>
+  
+  <h1>Upload ur File</h1>
+  <form action="/uploa" method="POST" enctype="multipart/form-data">
+    <input type="file" name="file">
+    
+   <h1>
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" placeholder="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </h1>
+    <h1>
+      <label for="get">yes or no?</label>
+      <select id="get" name="get">
+        <option value="yes">yes</option>
+
+        <option value="no">no</option>
+      </select>
+    </h1>
+    <form action="/name" method="POST" enctype="multipart/form-data"></action>
+    <label for="name">Name:</label>
+<input type="text" id="name" name="name" placeholder="Enter your name">
+
+<button type="submit">submit</button>
+
+  </form>
+</body>
+</html>
